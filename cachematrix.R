@@ -1,8 +1,8 @@
-## This file contains a pair of functions than can be used together to 
+## This file contains a pair of functions that can be used together to 
 ## calculate and cache a matrix's inverse. This allows the system to  
 ## do the expensive inverse calculation only once per matrix.
 
-## Creates a vector that contains four functions that can be used in caching a matrix inverse:
+## makeCacheMatrix creates a vector that contains four functions that can be used in caching a matrix inverse:
 ## set - sets the value of the matrix
 ## get - gets the value of the matrix
 ## setInverse - sets the value of the inverse
