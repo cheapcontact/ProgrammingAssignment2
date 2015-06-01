@@ -2,11 +2,11 @@
 ## calculate and cache a matrix's inverse. This allows the system to  
 ## do the expensive inverse calculation only once per matrix.
 
-## makeCacheMatrix creates a vector that contains four functions that can be used in caching a matrix inverse:
+## makeCacheMatrix creates a list that contains four functions that can be used in caching a matrix inverse:
 ## set - sets the value of the matrix
 ## get - gets the value of the matrix
 ## setInverse - sets the value of the inverse
-## getInverse - sets the value of the inverse
+## getInverse - gets the value of the inverse
 makeCacheMatrix <- function(x = matrix()) {
    myInverse <- NULL
    set <- function(y) {
